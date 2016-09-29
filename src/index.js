@@ -1,14 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
-const Hello = ({fn, ln}) => {
-  return (<h1>Hello, { fn } { ln }</h1>)
-}
+import Counter from './components/Counter'
 
 ReactDOM.render(
-  <Hello
-    fn={'Arnupharp'}
-    ln={'Viratanapanu'}
-  />,
+  <Counter />,
   document.getElementById('react-root')
 )
