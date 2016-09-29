@@ -16,6 +16,7 @@ export default class Counter extends Component {
   render() {
     return (
       <div className="counter">
+        <h1>{this.props.label}</h1>
         <h2>{this.state.counter}</h2>
         <button onClick={this.addCounter}>+1</button>
       </div>
