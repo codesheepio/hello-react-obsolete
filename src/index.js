@@ -1,3 +1,8 @@
-import { add } from './utils'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Counter from './components/Counter'
 
-console.log(add(3, 5))
+ReactDOM.render(
+  <Counter label={'I\'m a counter'} />,
+  document.getElementById('react-root')
+)
