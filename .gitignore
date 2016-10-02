@@ -1,6 +1,9 @@
 # Build directory
 dist
 
+# Temp files
+*.swp
+
 # Logs
 logs
 *.log
