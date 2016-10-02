@@ -10,7 +10,7 @@
     "webpack": "webpack",
     "webpack:watch": "webpack --watch"
   },
-  "author": "",
+  "author": "CodeSheep Team",
   "license": "ISC",
   "devDependencies": {
     "babel": "^6.5.2",
